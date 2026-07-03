@@ -1,20 +1,22 @@
-# CodeAlpha FAQ Chatbot
+# Object Detection and Tracking using YOLOv8
 
-This project is developed for the Artificial Intelligence Internship.
+## Description
+This project performs real-time object detection and tracking on a video using the YOLOv8 model from Ultralytics.
 
 ## Features
+- Object Detection
+- Multi-object Tracking
+- Bounding Boxes
+- Tracking IDs
+- Video Output
 
-- FAQ Chatbot
-- TF-IDF Vectorization
-- Cosine Similarity
-- Python
+## Libraries
+- ultralytics
+- opencv-python
 
-## How to Run
+## Run
 
-Install dependencies:
-
-pip install scikit-learn
-
-Run:
-
+```bash
+pip install ultralytics opencv-python
 python app.py
+```
